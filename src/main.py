@@ -21,6 +21,7 @@ def main():
         planted_acres_collector.run()
 
         # ↓↓↓↓↓ YOU CAN ADD MORE DATA SOURCE LIKE THIS ↓↓↓↓↓↓
+        
         # Create an instance of the FertilizerSalesCollector class, passing in the config
         # fertilizer_sales_collector = FertilizerSalesCollector(config)
         
