@@ -101,3 +101,5 @@ class FertilizerSalesCollector:
         self.write_to_csv(self.config['output_files']['fertilizer_sales'])
         logging.info(f"CSV file '{self.config['output_files']['fertilizer_sales']}' has been created successfully.")
         logging.info(f"File path: {os.path.abspath(self.config['output_files']['fertilizer_sales'])}")
+
+# YOU CAN ADD MORE SOURCES
