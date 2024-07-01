@@ -1,0 +1,62 @@
+data_sources:
+  planted_acres:
+    Alabama:
+      - https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=ALABAMA
+    Alaska:
+      - https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=ALASKA
+    Arizona:
+      - https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=ARIZONA
+    Arkansas:
+      - https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=ARKANSAS
+    California:
+      - https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=CALIFORNIA
+    Colorado:
+      - https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=COLORADO
+    Connecticut:
+      - https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=CONNECTICUT
+    Delaware:
+      - https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=DELAWARE
+    Florida:
+      - https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=FLORIDA
+    Georgia:
+      - https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=GEORGIA
+    Hawaii:
+      - https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=HAWAII
+    Idaho:
+      - https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=IDAHO
+    Illinois:
+      - https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=ILLINOIS
+
+    # YOU CAN ADD MORE STATES AND LINKS
+
+  fertilizer_sales:
+    California:
+      - http://example.com/california_fertilizer_link1
+      - http://example.com/california_fertilizer_link2
+    Texas:
+      - http://example.com/texas_fertilizer_link1
+      - http://example.com/texas_fertilizer_link2
+    Florida:
+      - http://example.com/florida_fertilizer_link1
+      - http://example.com/florida_fertilizer_link2
+
+output_files:
+  planted_acres:
+    Alabama: alabama_planted_acres.csv
+    Alaska: alaska_planted_acres.csv
+    Arizona: arizona_planted_acres.csv
+    Arkansas: arkansas_planted_acres.csv
+    California: california_planted_acres.csv
+    Colorado: colorado_planted_acres.csv
+    Connecticut: connecticut_planted_acres.csv
+    Delaware: delaware_planted_acres.csv
+    Florida: florida_planted_acres.csv
+    Georgia: georgia_planted_acres.csv
+    Hawaii: hawaii_planted_acres.csv
+    Idaho: idaho_planted_acres.csv
+    Illinois: illinois_planted_acres.csv
+
+  fertilizer_sales:
+    California: california_fertilizer_sales.csv
+    Texas: texas_fertilizer_sales.csv
+    Florida: florida_fertilizer_sales.csv
