@@ -102,4 +102,4 @@ class FertilizerSalesCollector:
         logging.info(f"CSV file '{self.config['output_files']['fertilizer_sales']}' has been created successfully.")
         logging.info(f"File path: {os.path.abspath(self.config['output_files']['fertilizer_sales'])}")
 
-# YOU CAN ADD MORE SOURCES
+# YOU CAN ADD MORE SOURCES BELOW
